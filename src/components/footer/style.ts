@@ -25,7 +25,7 @@ export const StyledFooter = styled.footer`
       padding: 0;
       margin: 0;
       li {
-        margin: 0 0 0 24px;
+        margin: 0 24px 0 0;
         a {
           color: ${colors.grey.base};
           height: 100%;
