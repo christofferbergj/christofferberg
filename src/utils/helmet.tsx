@@ -1,8 +1,7 @@
 import { colors } from '../styles/variables'
 
-const title = 'luke-starter-gatsby'
-const description =
-  'An opinionated GatsbyJS starter using TypeScript, styled-components, React String and React Spring.'
+const title = 'Berg'
+const description = 'Berg portfolio'
 
 const favicon = 'static/favicon.png'
 const share = 'static/share.png'
@@ -29,7 +28,7 @@ export interface IHelmet {
 export const base_helmet: IHelmet = {
   title,
   description,
-  titleTemplate: 'luke-starter-gatsby',
+  titleTemplate: 'Berg',
   htmlAttributes: { lang: 'en' },
   meta: [
     { name: 'description', content: description },
