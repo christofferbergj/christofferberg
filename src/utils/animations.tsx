@@ -13,7 +13,7 @@ export const SpringFadeUp: FunctionComponent = ({ children }) => {
   })
 
   const fade = useSpring({
-    config: { ...config.slow },
+    config: { ...config.default },
     from: {
       opacity: 0,
       transform: 'translate(0px, 24px)',
